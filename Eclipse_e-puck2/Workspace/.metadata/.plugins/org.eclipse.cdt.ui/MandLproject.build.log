@@ -1,0 +1,26 @@
+16:50:16 **** Incremental Build of configuration Default for project MandLproject ****
+make all 
+[1;34mCompiling main.c[0m
+main.c: In function 'main':
+main.c:49:5: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+     int get_selector();
+     ^~~
+main.c:86:24: warning: iteration 7 invokes undefined behavior [-Waggressive-loop-optimizations]
+         prox_values[i] = get_calibrated_prox(i);
+         ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~
+main.c:85:8: note: within this loop
+        for(int i = 0; i<=7; i += 1){
+        ^~~
+[1;34mLinking build/Project_template.elf[0m
+[1;34mCreating build/Project_template.hex[0m
+[1;34mCreating build/Project_template.bin[0m
+[1;34mCreating build/Project_template.dmp[0m
+
+   text	   data	    bss	    dec	    hex	filename
+  69332	   3028	  17532	  89892	  15f24	build/Project_template.elf
+[1;34mCreating build/Project_template.list[0m
+
+[1;34mDone[0m
+
+16:50:17 Build Finished. 0 errors, 2 warnings. (took 966ms)
+
