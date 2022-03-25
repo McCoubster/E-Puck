@@ -775,3 +775,1226 @@ main.c:85:8: note: within this loop
 [1;34mCreating build/Project_template.list[0m
 
 [1;34mDone[0m
+14:48:34 **** Build of configuration Default for project MandL ****
+make all 
+[1;34mCompiling crt0_v7m.s[0m
+[1;34mCompiling chcoreasm_v7m.s[0m
+[1;34mCompiling main.c[0m
+main.c: In function 'main':
+main.c:49:5: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+     int get_selector();
+     ^~~
+[1;34mCompiling spi3_slave_lld.c[0m
+[1;34mCompiling dcmi_lld.c[0m
+[1;34mCompiling dcmi.c[0m
+[1;34mCompiling spi3_slave.c[0m
+[1;34mCompiling audio_thread.c[0m
+[1;34mCompiling microphone.c[0m
+[1;34mCompiling mp45dt02_processing.c[0m
+[1;34mCompiling play_melody.c[0m
+[1;34mCompiling button.c[0m
+[1;34mCompiling camera.c[0m
+[1;34mCompiling dcmi_camera.c[0m
+[1;34mCompiling ov2640.c[0m
+[1;34mCompiling ov7670.c[0m
+[1;34mCompiling po6030.c[0m
+[1;34mCompiling po8030.c[0m
+[1;34mCompiling cmd.c[0m
+[1;34mCompiling Asercom.c[0m
+[1;34mCompiling Asercom2.c[0m
+[1;34mCompiling DataEEPROM.c[0m
+[1;34mCompiling e_I2C_protocol.c[0m
+[1;34mCompiling e_acc.c[0m
+[1;34mCompiling e_ad_conv.c[0m
+[1;34mCompiling e_micro.c[0m
+[1;34mCompiling e_prox.c[0m
+[1;34mCompiling e_lsm330.c[0m
+[1;34mCompiling e_common.c[0m
+[1;34mCompiling e_sound.c[0m
+[1;34mCompiling e_agenda.c[0m
+[1;34mCompiling e_led.c[0m
+[1;34mCompiling e_motors.c[0m
+[1;34mCompiling e_remote_control.c[0m
+[1;34mCompiling e_init_port.c[0m
+[1;34mCompiling e_uart_char.c[0m
+[1;34mCompiling utility.c[0m
+[1;34mCompiling exti.c[0m
+[1;34mCompiling flash.c[0m
+[1;34mCompiling i2c_bus.c[0m
+[1;34mCompiling ir_remote.c[0m
+[1;34mCompiling leds.c[0m
+[1;34mCompiling memory_protection.c[0m
+[1;34mCompiling motors.c[0m
+[1;34mCompiling panic.c[0m
+[1;34mCompiling selector.c[0m
+[1;34mCompiling battery_level.c[0m
+[1;34mCompiling ground.c[0m
+[1;34mCompiling imu.c[0m
+[1;34mCompiling mpu9250.c[0m
+[1;34mCompiling proximity.c[0m
+[1;34mCompiling serial_comm.c[0m
+[1;34mCompiling spi_comm.c[0m
+[1;34mCompiling sdio.c[0m
+[1;34mCompiling usbcfg.c[0m
+[1;34mCompiling uc_usage.c[0m
+[1;34mCompiling malloc_lock.c[0m
+[1;34mCompiling newlib_syscalls.c[0m
+[1;34mCompiling port.c[0m
+[1;34mCompiling communication.c[0m
+[1;34mCompiling config_flash_storage.c[0m
+[1;34mCompiling vl53l0x_api.c[0m
+[1;34mCompiling vl53l0x_api_calibration.c[0m
+[1;34mCompiling vl53l0x_api_core.c[0m
+[1;34mCompiling vl53l0x_api_ranging.c[0m
+[1;34mCompiling vl53l0x_api_strings.c[0m
+[1;34mCompiling vl53l0x_i2c_platform.c[0m
+[1;34mCompiling vl53l0x_platform.c[0m
+[1;34mCompiling VL53L0X.c[0m
+[1;34mCompiling serial_datagram.c[0m
+[1;34mCompiling cmp.c[0m
+[1;34mCompiling cmp_mem_access.c[0m
+[1;34mCompiling crc16.c[0m
+[1;34mCompiling crc32.c[0m
+[1;34mCompiling messagebus.c[0m
+[1;34mCompiling parameter.c[0m
+[1;34mCompiling parameter_msgpack.c[0m
+[1;34mCompiling parameter_print.c[0m
+[1;34mCompiling fat.c[0m
+[1;34mCompiling play_sound_file.c[0m
+[1;34mCompiling behaviors.c[0m
+[1;34mCompiling ircom.c[0m
+[1;34mCompiling ircomReceive.c[0m
+[1;34mCompiling ircomTools.c[0m
+[1;34mCompiling ircomMessages.c[0m
+[1;34mCompiling ircomSend.c[0m
+[1;34mCompiling transceiver.c[0m
+[1;34mCompiling crt1.c[0m
+[1;34mCompiling vectors.c[0m
+[1;34mCompiling chsys.c[0m
+[1;34mCompiling chdebug.c[0m
+[1;34mCompiling chvt.c[0m
+[1;34mCompiling chschd.c[0m
+[1;34mCompiling chthreads.c[0m
+[1;34mCompiling chtm.c[0m
+[1;34mCompiling chstats.c[0m
+[1;34mCompiling chdynamic.c[0m
+[1;34mCompiling chregistry.c[0m
+[1;34mCompiling chsem.c[0m
+[1;34mCompiling chmtx.c[0m
+[1;34mCompiling chcond.c[0m
+[1;34mCompiling chevents.c[0m
+[1;34mCompiling chmsg.c[0m
+[1;34mCompiling chmboxes.c[0m
+[1;34mCompiling chqueues.c[0m
+[1;34mCompiling chmemcore.c[0m
+[1;34mCompiling chheap.c[0m
+[1;34mCompiling chmempools.c[0m
+[1;34mCompiling chcore.c[0m
+[1;34mCompiling chcore_v7m.c[0m
+[1;34mCompiling osal.c[0m
+[1;34mCompiling hal.c[0m
+[1;34mCompiling hal_queues.c[0m
+[1;34mCompiling hal_mmcsd.c[0m
+[1;34mCompiling adc.c[0m
+[1;34mCompiling can.c[0m
+[1;34mCompiling dac.c[0m
+[1;34mCompiling ext.c[0m
+[1;34mCompiling gpt.c[0m
+[1;34mCompiling i2c.c[0m
+[1;34mCompiling i2s.c[0m
+[1;34mCompiling icu.c[0m
+[1;34mCompiling mac.c[0m
+[1;34mCompiling mmc_spi.c[0m
+[1;34mCompiling pal.c[0m
+[1;34mCompiling pwm.c[0m
+[1;34mCompiling rtc.c[0m
+[1;34mCompiling sdc.c[0m
+[1;34mCompiling serial.c[0m
+[1;34mCompiling serial_usb.c[0m
+[1;34mCompiling spi.c[0m
+[1;34mCompiling st.c[0m
+[1;34mCompiling uart.c[0m
+[1;34mCompiling usb.c[0m
+[1;34mCompiling nvic.c[0m
+[1;34mCompiling stm32_dma.c[0m
+[1;34mCompiling hal_lld.c[0m
+[1;34mCompiling adc_lld.c[0m
+[1;34mCompiling ext_lld_isr.c[0m
+[1;34mCompiling can_lld.c[0m
+[1;34mCompiling ext_lld.c[0m
+[1;34mCompiling mac_lld.c[0m
+[1;34mCompiling sdc_lld.c[0m
+[1;34mCompiling dac_lld.c[0m
+[1;34mCompiling pal_lld.c[0m
+[1;34mCompiling i2c_lld.c[0m
+[1;34mCompiling usb_lld.c[0m
+[1;34mCompiling rtc_lld.c[0m
+[1;34mCompiling i2s_lld.c[0m
+[1;34mCompiling spi_lld.c[0m
+[1;34mCompiling gpt_lld.c[0m
+[1;34mCompiling icu_lld.c[0m
+[1;34mCompiling pwm_lld.c[0m
+[1;34mCompiling st_lld.c[0m
+[1;34mCompiling serial_lld.c[0m
+[1;34mCompiling uart_lld.c[0m
+[1;34mCompiling board.c[0m
+[1;34mCompiling test.c[0m
+[1;34mCompiling testthd.c[0m
+[1;34mCompiling testsem.c[0m
+[1;34mCompiling testmtx.c[0m
+[1;34mCompiling testmsg.c[0m
+[1;34mCompiling testmbox.c[0m
+[1;34mCompiling testevt.c[0m
+[1;34mCompiling testheap.c[0m
+[1;34mCompiling testpools.c[0m
+[1;34mCompiling testdyn.c[0m
+[1;34mCompiling testqueues.c[0m
+[1;34mCompiling testsys.c[0m
+[1;34mCompiling testbmk.c[0m
+[1;34mCompiling shell.c[0m
+[1;34mCompiling memstreams.c[0m
+[1;34mCompiling chprintf.c[0m
+[1;34mCompiling fatfs_diskio.c[0m
+[1;34mCompiling fatfs_syscall.c[0m
+[1;34mCompiling ff.c[0m
+[1;34mCompiling unicode.c[0m
+[1;34mCompiling vm-buffer.c[0m
+[1;34mCompiling can-buffer.c[0m
+[1;34mCompiling can-net.c[0m
+[1;34mCompiling natives.c[0m
+[1;34mCompiling vm.c[0m
+[1;34mCompiling aseba_can_interface.c[0m
+[1;34mCompiling aseba_node.c[0m
+[1;34mCompiling skel_user.c[0m
+[1;34mCompiling aseba_bridge.c[0m
+[1;34mLinking build/Project_template.elf[0m
+[1;34mCreating build/Project_template.hex[0m
+[1;34mCreating build/Project_template.bin[0m
+[1;34mCreating build/Project_template.dmp[0m
+
+   text	   data	    bss	    dec	    hex	filename
+  66628	   3028	  17516	  87172	  15484	build/Project_template.elf
+[1;34mCreating build/Project_template.list[0m
+
+[1;34mDone[0m
+14:49:43 **** Incremental Build of configuration Default for project MandL ****
+make all 
+[1;34mCompiling main.c[0m
+main.c: In function 'main':
+main.c:49:5: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+     int get_selector();
+     ^~~
+main.c:86:24: warning: iteration 7 invokes undefined behavior [-Waggressive-loop-optimizations]
+         prox_values[i] = get_calibrated_prox(i);
+         ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~
+main.c:85:8: note: within this loop
+        for(int i = 0; i<=7; i += 1){
+        ^~~
+[1;34mLinking build/Project_template.elf[0m
+[1;34mCreating build/Project_template.hex[0m
+[1;34mCreating build/Project_template.bin[0m
+[1;34mCreating build/Project_template.dmp[0m
+
+   text	   data	    bss	    dec	    hex	filename
+  69332	   3028	  17532	  89892	  15f24	build/Project_template.elf
+[1;34mCreating build/Project_template.list[0m
+
+[1;34mDone[0m
+15:02:40 **** Incremental Build of configuration Default for project MandL ****
+make all 
+[1;34mCompiling main.c[0m
+main.c: In function 'main':
+main.c:49:5: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+     int get_selector();
+     ^~~
+main.c:86:24: warning: iteration 7 invokes undefined behavior [-Waggressive-loop-optimizations]
+         prox_values[i] = get_calibrated_prox(i);
+         ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~
+main.c:85:8: note: within this loop
+        for(int i = 0; i<=7; i += 1){
+        ^~~
+[1;34mLinking build/Project_template.elf[0m
+[1;34mCreating build/Project_template.hex[0m
+[1;34mCreating build/Project_template.bin[0m
+[1;34mCreating build/Project_template.dmp[0m
+
+   text	   data	    bss	    dec	    hex	filename
+  69332	   3028	  17532	  89892	  15f24	build/Project_template.elf
+[1;34mCreating build/Project_template.list[0m
+
+[1;34mDone[0m
+15:02:54 **** Incremental Build of configuration Default for project MandL ****
+make all 
+make: Nothing to be done for 'all'.
+15:03:10 **** Incremental Build of configuration Default for project MandL ****
+make all 
+make: Nothing to be done for 'all'.
+15:06:00 **** Incremental Build of configuration Default for project MandL ****
+make all 
+[1;34mCompiling main.c[0m
+main.c: In function 'main':
+main.c:49:5: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+     int get_selector();
+     ^~~
+main.c:86:24: warning: iteration 7 invokes undefined behavior [-Waggressive-loop-optimizations]
+         prox_values[i] = get_calibrated_prox(i);
+         ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~
+main.c:85:8: note: within this loop
+        for(int i = 0; i<=7; i += 1){
+        ^~~
+[1;34mLinking build/Project_template.elf[0m
+[1;34mCreating build/Project_template.hex[0m
+[1;34mCreating build/Project_template.bin[0m
+[1;34mCreating build/Project_template.dmp[0m
+
+   text	   data	    bss	    dec	    hex	filename
+  69364	   3028	  17532	  89924	  15f44	build/Project_template.elf
+[1;34mCreating build/Project_template.list[0m
+
+[1;34mDone[0m
+15:07:28 **** Incremental Build of configuration Default for project MandL ****
+make all 
+[1;34mCompiling main.c[0m
+main.c: In function 'main':
+main.c:49:5: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+     int get_selector();
+     ^~~
+main.c:88:24: warning: iteration 7 invokes undefined behavior [-Waggressive-loop-optimizations]
+         prox_values[i] = get_calibrated_prox(i);
+         ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~
+main.c:87:8: note: within this loop
+        for(int i = 0; i<=7; i += 1){
+        ^~~
+[1;34mLinking build/Project_template.elf[0m
+[1;34mCreating build/Project_template.hex[0m
+[1;34mCreating build/Project_template.bin[0m
+[1;34mCreating build/Project_template.dmp[0m
+
+   text	   data	    bss	    dec	    hex	filename
+  69364	   3028	  17532	  89924	  15f44	build/Project_template.elf
+[1;34mCreating build/Project_template.list[0m
+
+[1;34mDone[0m
+15:22:08 **** Incremental Build of configuration Default for project MandL ****
+make all 
+[1;34mCompiling main.c[0m
+main.c: In function 'main':
+main.c:49:5: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+     int get_selector();
+     ^~~
+main.c:88:24: warning: iteration 7 invokes undefined behavior [-Waggressive-loop-optimizations]
+         prox_values[i] = get_calibrated_prox(i);
+         ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~
+main.c:87:8: note: within this loop
+        for(int i = 0; i<=7; i += 1){
+        ^~~
+[1;34mLinking build/Project_template.elf[0m
+[1;34mCreating build/Project_template.hex[0m
+[1;34mCreating build/Project_template.bin[0m
+[1;34mCreating build/Project_template.dmp[0m
+
+   text	   data	    bss	    dec	    hex	filename
+  69412	   3028	  17532	  89972	  15f74	build/Project_template.elf
+[1;34mCreating build/Project_template.list[0m
+
+[1;34mDone[0m
+15:22:50 **** Incremental Build of configuration Default for project MandL ****
+make all 
+make: Nothing to be done for 'all'.
+15:23:17 **** Incremental Build of configuration Default for project MandL ****
+make all 
+make: Nothing to be done for 'all'.
+15:24:20 **** Incremental Build of configuration Default for project MandL ****
+make all 
+make: Nothing to be done for 'all'.
+15:24:58 **** Incremental Build of configuration Default for project MandL ****
+make all 
+make: Nothing to be done for 'all'.
+15:25:11 **** Incremental Build of configuration Default for project MandL ****
+make all 
+make: Nothing to be done for 'all'.
+15:26:17 **** Incremental Build of configuration Default for project MandL ****
+make all 
+make: Nothing to be done for 'all'.
+15:26:26 **** Incremental Build of configuration Default for project MandL ****
+make all 
+make: Nothing to be done for 'all'.
+15:26:41 **** Incremental Build of configuration Default for project MandL ****
+make all 
+make: Nothing to be done for 'all'.
+15:28:00 **** Incremental Build of configuration Default for project MandL ****
+make all 
+make: Nothing to be done for 'all'.
+15:28:15 **** Incremental Build of configuration Default for project MandL ****
+make all 
+make: Nothing to be done for 'all'.
+15:28:39 **** Incremental Build of configuration Default for project MandL ****
+make all 
+make: Nothing to be done for 'all'.
+15:28:47 **** Incremental Build of configuration Default for project MandL ****
+make all 
+make: Nothing to be done for 'all'.
+15:28:57 **** Incremental Build of configuration Default for project MandL ****
+make all 
+make: Nothing to be done for 'all'.
+15:30:33 **** Incremental Build of configuration Default for project MandL ****
+make all 
+make: Nothing to be done for 'all'.
+15:30:38 **** Incremental Build of configuration Default for project MandL ****
+make all 
+make: Nothing to be done for 'all'.
+15:31:04 **** Incremental Build of configuration Default for project MandL ****
+make all 
+make: Nothing to be done for 'all'.
+15:32:56 **** Incremental Build of configuration Default for project MandL ****
+make all 
+[1;34mCompiling main.c[0m
+main.c: In function 'main':
+main.c:49:5: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+     int get_selector();
+     ^~~
+main.c:88:24: warning: iteration 7 invokes undefined behavior [-Waggressive-loop-optimizations]
+         prox_values[i] = get_calibrated_prox(i);
+         ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~
+main.c:87:8: note: within this loop
+        for(int i = 0; i<=7; i += 1){
+        ^~~
+[1;34mLinking build/Project_template.elf[0m
+[1;34mCreating build/Project_template.hex[0m
+[1;34mCreating build/Project_template.bin[0m
+[1;34mCreating build/Project_template.dmp[0m
+
+   text	   data	    bss	    dec	    hex	filename
+  69428	   3028	  17532	  89988	  15f84	build/Project_template.elf
+[1;34mCreating build/Project_template.list[0m
+
+[1;34mDone[0m
+15:35:01 **** Incremental Build of configuration Default for project MandL ****
+make all 
+[1;34mCompiling main.c[0m
+main.c: In function 'main':
+main.c:49:5: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+     int get_selector();
+     ^~~
+main.c:88:24: warning: iteration 7 invokes undefined behavior [-Waggressive-loop-optimizations]
+         prox_values[i] = get_calibrated_prox(i);
+         ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~
+main.c:87:8: note: within this loop
+        for(int i = 0; i<=7; i += 1){
+        ^~~
+[1;34mLinking build/Project_template.elf[0m
+[1;34mCreating build/Project_template.hex[0m
+[1;34mCreating build/Project_template.bin[0m
+[1;34mCreating build/Project_template.dmp[0m
+
+   text	   data	    bss	    dec	    hex	filename
+  69428	   3028	  17532	  89988	  15f84	build/Project_template.elf
+[1;34mCreating build/Project_template.list[0m
+
+[1;34mDone[0m
+15:38:20 **** Incremental Build of configuration Default for project MandL ****
+make all 
+[1;34mCompiling main.c[0m
+main.c: In function 'main':
+main.c:49:5: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+     int get_selector();
+     ^~~
+main.c:88:24: warning: iteration 7 invokes undefined behavior [-Waggressive-loop-optimizations]
+         prox_values[i] = get_calibrated_prox(i);
+         ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~
+main.c:87:8: note: within this loop
+        for(int i = 0; i<=7; i += 1){
+        ^~~
+[1;34mLinking build/Project_template.elf[0m
+[1;34mCreating build/Project_template.hex[0m
+[1;34mCreating build/Project_template.bin[0m
+[1;34mCreating build/Project_template.dmp[0m
+
+   text	   data	    bss	    dec	    hex	filename
+  69428	   3028	  17532	  89988	  15f84	build/Project_template.elf
+[1;34mCreating build/Project_template.list[0m
+
+[1;34mDone[0m
+15:50:53 **** Incremental Build of configuration Default for project MandL ****
+make all 
+[1;34mCompiling main.c[0m
+main.c: In function 'main':
+main.c:49:5: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+     int get_selector();
+     ^~~
+main.c:101:18: error: 'prox_value' undeclared (first use in this function); did you mean 'prox_values'?
+        }else if (prox_value[6] > 200){
+                  ^~~~~~~~~~
+                  prox_values
+main.c:101:18: note: each undeclared identifier is reported only once for each function it appears in
+main.c:105:22: error: 'i' undeclared (first use in this function)
+          prox_values[i] = get_calibrated_prox(i);
+                      ^
+../e-puck2_main-processor/ChibiOS//os/common/ports/ARMCMx/compilers/GCC/rules.mk:216: recipe for target 'build/obj/main.o' failed
+make: *** [build/obj/main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+15:52:26 **** Incremental Build of configuration Default for project MandL ****
+make all 
+[1;34mCompiling main.c[0m
+main.c: In function 'main':
+main.c:49:5: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+     int get_selector();
+     ^~~
+main.c:101:18: error: 'prox_value' undeclared (first use in this function); did you mean 'prox_values'?
+        }else if (prox_value[6] > 200){
+                  ^~~~~~~~~~
+                  prox_values
+main.c:101:18: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [build/obj/main.o] Error 1
+../e-puck2_main-processor/ChibiOS//os/common/ports/ARMCMx/compilers/GCC/rules.mk:216: recipe for target 'build/obj/main.o' failed
+"make all" terminated with exit code 2. Build might be incomplete.
+15:52:43 **** Incremental Build of configuration Default for project MandL ****
+make all 
+[1;34mCompiling main.c[0m
+main.c: In function 'main':
+main.c:49:5: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+     int get_selector();
+     ^~~
+main.c:88:24: warning: iteration 7 invokes undefined behavior [-Waggressive-loop-optimizations]
+         prox_values[i] = get_calibrated_prox(i);
+         ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~
+main.c:87:8: note: within this loop
+        for(int i = 0; i<=7; i += 1){
+        ^~~
+main.c:114:31: warning: iteration 7 invokes undefined behavior [-Waggressive-loop-optimizations]
+                prox_values[i] = get_calibrated_prox(i);
+                ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~
+main.c:113:13: note: within this loop
+             for(int i = 0; i<=7; i += 1){
+             ^~~
+main.c:106:26: warning: iteration 7 invokes undefined behavior [-Waggressive-loop-optimizations]
+           prox_values[i] = get_calibrated_prox(i);
+           ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~
+main.c:105:10: note: within this loop
+          for(int i = 0; i<=7; i += 1){
+          ^~~
+[1;34mLinking build/Project_template.elf[0m
+[1;34mCreating build/Project_template.hex[0m
+[1;34mCreating build/Project_template.bin[0m
+[1;34mCreating build/Project_template.dmp[0m
+
+   text	   data	    bss	    dec	    hex	filename
+  69556	   3028	  17532	  90116	  16004	build/Project_template.elf
+[1;34mCreating build/Project_template.list[0m
+
+[1;34mDone[0m
+15:54:54 **** Incremental Build of configuration Default for project MandL ****
+make all 
+[1;34mCompiling main.c[0m
+main.c: In function 'main':
+main.c:49:5: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+     int get_selector();
+     ^~~
+main.c:88:24: warning: iteration 7 invokes undefined behavior [-Waggressive-loop-optimizations]
+         prox_values[i] = get_calibrated_prox(i);
+         ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~
+main.c:87:8: note: within this loop
+        for(int i = 0; i<=7; i += 1){
+        ^~~
+main.c:114:31: warning: iteration 7 invokes undefined behavior [-Waggressive-loop-optimizations]
+                prox_values[i] = get_calibrated_prox(i);
+                ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~
+main.c:113:13: note: within this loop
+             for(int i = 0; i<=7; i += 1){
+             ^~~
+main.c:106:26: warning: iteration 7 invokes undefined behavior [-Waggressive-loop-optimizations]
+           prox_values[i] = get_calibrated_prox(i);
+           ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~
+main.c:105:10: note: within this loop
+          for(int i = 0; i<=7; i += 1){
+          ^~~
+[1;34mLinking build/Project_template.elf[0m
+[1;34mCreating build/Project_template.hex[0m
+[1;34mCreating build/Project_template.bin[0m
+[1;34mCreating build/Project_template.dmp[0m
+
+   text	   data	    bss	    dec	    hex	filename
+  69556	   3028	  17532	  90116	  16004	build/Project_template.elf
+[1;34mCreating build/Project_template.list[0m
+
+[1;34mDone[0m
+15:57:59 **** Incremental Build of configuration Default for project MandL ****
+make all 
+make: Nothing to be done for 'all'.
+16:00:14 **** Incremental Build of configuration Default for project MandL ****
+make all 
+[1;34mCompiling main.c[0m
+main.c: In function 'main':
+main.c:49:5: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+     int get_selector();
+     ^~~
+main.c:156:1: error: expected declaration or statement at end of input
+ }
+ ^
+main.c:151:11: warning: unused variable '__stack_chk_guard' [-Wunused-variable]
+ uintptr_t __stack_chk_guard = STACK_CHK_GUARD;
+           ^~~~~~~~~~~~~~~~~
+main.c:156:1: error: expected declaration or statement at end of input
+../e-puck2_main-processor/ChibiOS//os/common/ports/ARMCMx/compilers/GCC/rules.mk:216: recipe for target 'build/obj/main.o' failed
+ }
+ ^
+At top level:
+main.c:153:6: warning: '__stack_chk_fail' defined but not used [-Wunused-function]
+ void __stack_chk_fail(void)
+      ^~~~~~~~~~~~~~~~
+make: *** [build/obj/main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+16:00:25 **** Incremental Build of configuration Default for project MandL ****
+make all 
+[1;34mCompiling main.c[0m
+main.c: In function 'main':
+main.c:49:5: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+     int get_selector();
+     ^~~
+main.c:156:1: error: expected declaration or statement at end of input
+ }
+ ^
+main.c:151:11: warning: unused variable '__stack_chk_guard' [-Wunused-variable]
+ uintptr_t __stack_chk_guard = STACK_CHK_GUARD;
+           ^~~~~~~~~~~~~~~~~
+At top level:
+main.c:153:6: warning: '__stack_chk_fail' defined but not used [-Wunused-function]
+../e-puck2_main-processor/ChibiOS//os/common/ports/ARMCMx/compilers/GCC/rules.mk:216: recipe for target 'build/obj/main.o' failed
+ void __stack_chk_fail(void)
+      ^~~~~~~~~~~~~~~~
+make: *** [build/obj/main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+16:02:19 **** Incremental Build of configuration Default for project MandL ****
+make all 
+[1;34mCompiling main.c[0m
+main.c: In function 'main':
+main.c:49:5: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+     int get_selector();
+     ^~~
+main.c:138:28: warning: iteration 7 invokes undefined behavior [-Waggressive-loop-optimizations]
+             prox_values[i] = get_calibrated_prox(i);
+             ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~
+main.c:137:12: note: within this loop
+            for(int i = 0; i<=7; i += 1){
+            ^~~
+main.c:88:24: warning: iteration 7 invokes undefined behavior [-Waggressive-loop-optimizations]
+         prox_values[i] = get_calibrated_prox(i);
+         ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~
+main.c:87:8: note: within this loop
+        for(int i = 0; i<=7; i += 1){
+        ^~~
+main.c:114:31: warning: iteration 7 invokes undefined behavior [-Waggressive-loop-optimizations]
+                prox_values[i] = get_calibrated_prox(i);
+                ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~
+main.c:113:13: note: within this loop
+             for(int i = 0; i<=7; i += 1){
+             ^~~
+main.c:106:26: warning: iteration 7 invokes undefined behavior [-Waggressive-loop-optimizations]
+           prox_values[i] = get_calibrated_prox(i);
+           ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~
+main.c:105:10: note: within this loop
+          for(int i = 0; i<=7; i += 1){
+          ^~~
+[1;34mLinking build/Project_template.elf[0m
+[1;34mCreating build/Project_template.hex[0m
+[1;34mCreating build/Project_template.bin[0m
+[1;34mCreating build/Project_template.dmp[0m
+
+   text	   data	    bss	    dec	    hex	filename
+  69604	   3028	  17532	  90164	  16034	build/Project_template.elf
+[1;34mCreating build/Project_template.list[0m
+
+[1;34mDone[0m
+16:04:43 **** Incremental Build of configuration Default for project MandL ****
+make all 
+[1;34mCompiling main.c[0m
+main.c: In function 'main':
+main.c:49:5: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+     int get_selector();
+     ^~~
+main.c: At top level:
+main.c:139:1: error: expected identifier or '(' before '}' token
+ }
+ ^
+make: *** [build/obj/main.o] Error 1
+../e-puck2_main-processor/ChibiOS//os/common/ports/ARMCMx/compilers/GCC/rules.mk:216: recipe for target 'build/obj/main.o' failed
+"make all" terminated with exit code 2. Build might be incomplete.
+16:05:03 **** Incremental Build of configuration Default for project MandL ****
+make all 
+[1;34mCompiling main.c[0m
+main.c: In function 'main':
+main.c:49:5: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+     int get_selector();
+     ^~~
+main.c:147:1: error: expected declaration or statement at end of input
+ }
+ ^
+main.c:142:11: warning: unused variable '__stack_chk_guard' [-Wunused-variable]
+ uintptr_t __stack_chk_guard = STACK_CHK_GUARD;
+           ^~~~~~~~~~~~~~~~~
+At top level:
+main.c:144:6: warning: '__stack_chk_fail' defined but not used [-Wunused-function]
+ void __stack_chk_fail(void)
+../e-puck2_main-processor/ChibiOS//os/common/ports/ARMCMx/compilers/GCC/rules.mk:216: recipe for target 'build/obj/main.o' failed
+      ^~~~~~~~~~~~~~~~
+make: *** [build/obj/main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+16:05:14 **** Incremental Build of configuration Default for project MandL ****
+make all 
+[1;34mCompiling main.c[0m
+main.c: In function 'main':
+main.c:49:5: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+     int get_selector();
+     ^~~
+main.c:88:24: warning: iteration 7 invokes undefined behavior [-Waggressive-loop-optimizations]
+         prox_values[i] = get_calibrated_prox(i);
+         ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~
+main.c:87:8: note: within this loop
+        for(int i = 0; i<=7; i += 1){
+        ^~~
+main.c:114:31: warning: iteration 7 invokes undefined behavior [-Waggressive-loop-optimizations]
+                prox_values[i] = get_calibrated_prox(i);
+                ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~
+main.c:113:13: note: within this loop
+             for(int i = 0; i<=7; i += 1){
+             ^~~
+main.c:106:26: warning: iteration 7 invokes undefined behavior [-Waggressive-loop-optimizations]
+           prox_values[i] = get_calibrated_prox(i);
+           ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~
+main.c:105:10: note: within this loop
+          for(int i = 0; i<=7; i += 1){
+          ^~~
+[1;34mLinking build/Project_template.elf[0m
+[1;34mCreating build/Project_template.hex[0m
+[1;34mCreating build/Project_template.bin[0m
+[1;34mCreating build/Project_template.dmp[0m
+
+   text	   data	    bss	    dec	    hex	filename
+  69556	   3028	  17532	  90116	  16004	build/Project_template.elf
+[1;34mCreating build/Project_template.list[0m
+
+[1;34mDone[0m
+16:07:00 **** Incremental Build of configuration Default for project MandL ****
+make all 
+[1;34mCompiling main.c[0m
+main.c: In function 'main':
+main.c:49:5: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+     int get_selector();
+     ^~~
+main.c:68:12: error: 'prox_values' undeclared (first use in this function)
+            prox_values[i] = get_calibrated_prox(i);
+            ^~~~~~~~~~~
+main.c:68:12: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [build/obj/main.o] Error 1
+../e-puck2_main-processor/ChibiOS//os/common/ports/ARMCMx/compilers/GCC/rules.mk:216: recipe for target 'build/obj/main.o' failed
+"make all" terminated with exit code 2. Build might be incomplete.
+16:11:47 **** Incremental Build of configuration Default for project MandL ****
+make all 
+[1;34mCompiling main.c[0m
+main.c: In function 'main':
+main.c:49:5: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+     int get_selector();
+     ^~~
+main.c:95:24: warning: iteration 7 invokes undefined behavior [-Waggressive-loop-optimizations]
+         prox_values[i] = get_calibrated_prox(i);
+         ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~
+main.c:94:8: note: within this loop
+        for(int i = 0; i<=7; i += 1){
+        ^~~
+main.c:121:31: warning: iteration 7 invokes undefined behavior [-Waggressive-loop-optimizations]
+                prox_values[i] = get_calibrated_prox(i);
+                ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~
+main.c:120:13: note: within this loop
+             for(int i = 0; i<=7; i += 1){
+             ^~~
+main.c:113:26: warning: iteration 7 invokes undefined behavior [-Waggressive-loop-optimizations]
+           prox_values[i] = get_calibrated_prox(i);
+           ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~
+main.c:112:10: note: within this loop
+          for(int i = 0; i<=7; i += 1){
+          ^~~
+main.c:68:27: warning: iteration 7 invokes undefined behavior [-Waggressive-loop-optimizations]
+            prox_values[i] = get_calibrated_prox(i);
+            ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~
+main.c:67:8: note: within this loop
+        for(int i = 0; i<=7; i += 1){
+        ^~~
+[1;34mLinking build/Project_template.elf[0m
+[1;34mCreating build/Project_template.hex[0m
+[1;34mCreating build/Project_template.bin[0m
+[1;34mCreating build/Project_template.dmp[0m
+
+   text	   data	    bss	    dec	    hex	filename
+  69604	   3028	  17532	  90164	  16034	build/Project_template.elf
+[1;34mCreating build/Project_template.list[0m
+
+[1;34mDone[0m
+16:12:50 **** Incremental Build of configuration Default for project MandL ****
+make all 
+[1;34mCompiling main.c[0m
+main.c: In function 'main':
+main.c:49:5: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+     int get_selector();
+     ^~~
+main.c:97:24: warning: iteration 7 invokes undefined behavior [-Waggressive-loop-optimizations]
+         prox_values[i] = get_calibrated_prox(i);
+         ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~
+main.c:96:8: note: within this loop
+        for(int i = 0; i<=7; i += 1){
+        ^~~
+main.c:123:31: warning: iteration 7 invokes undefined behavior [-Waggressive-loop-optimizations]
+                prox_values[i] = get_calibrated_prox(i);
+                ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~
+main.c:122:13: note: within this loop
+             for(int i = 0; i<=7; i += 1){
+             ^~~
+main.c:115:26: warning: iteration 7 invokes undefined behavior [-Waggressive-loop-optimizations]
+           prox_values[i] = get_calibrated_prox(i);
+           ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~
+main.c:114:10: note: within this loop
+          for(int i = 0; i<=7; i += 1){
+          ^~~
+main.c:68:27: warning: iteration 7 invokes undefined behavior [-Waggressive-loop-optimizations]
+            prox_values[i] = get_calibrated_prox(i);
+            ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~
+main.c:67:8: note: within this loop
+        for(int i = 0; i<=7; i += 1){
+        ^~~
+[1;34mLinking build/Project_template.elf[0m
+[1;34mCreating build/Project_template.hex[0m
+[1;34mCreating build/Project_template.bin[0m
+[1;34mCreating build/Project_template.dmp[0m
+
+   text	   data	    bss	    dec	    hex	filename
+  69620	   3028	  17532	  90180	  16044	build/Project_template.elf
+[1;34mCreating build/Project_template.list[0m
+
+[1;34mDone[0m
+16:18:55 **** Incremental Build of configuration Default for project MandL ****
+make all 
+[1;34mCompiling main.c[0m
+main.c: In function 'main':
+main.c:49:5: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+     int get_selector();
+     ^~~
+main.c:97:24: warning: iteration 7 invokes undefined behavior [-Waggressive-loop-optimizations]
+         prox_values[i] = get_calibrated_prox(i);
+         ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~
+main.c:96:8: note: within this loop
+        for(int i = 0; i<=7; i += 1){
+        ^~~
+main.c:115:26: warning: iteration 7 invokes undefined behavior [-Waggressive-loop-optimizations]
+           prox_values[i] = get_calibrated_prox(i);
+           ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~
+main.c:114:10: note: within this loop
+          for(int i = 0; i<=7; i += 1){
+          ^~~
+main.c:68:27: warning: iteration 7 invokes undefined behavior [-Waggressive-loop-optimizations]
+            prox_values[i] = get_calibrated_prox(i);
+            ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~
+main.c:67:8: note: within this loop
+        for(int i = 0; i<=7; i += 1){
+        ^~~
+[1;34mLinking build/Project_template.elf[0m
+[1;34mCreating build/Project_template.hex[0m
+[1;34mCreating build/Project_template.bin[0m
+[1;34mCreating build/Project_template.dmp[0m
+
+   text	   data	    bss	    dec	    hex	filename
+  69556	   3028	  17532	  90116	  16004	build/Project_template.elf
+[1;34mCreating build/Project_template.list[0m
+
+[1;34mDone[0m
+16:20:02 **** Incremental Build of configuration Default for project MandL ****
+make all 
+make: Nothing to be done for 'all'.
+16:20:16 **** Incremental Build of configuration Default for project MandL ****
+make all 
+make: Nothing to be done for 'all'.
+16:21:49 **** Incremental Build of configuration Default for project MandL ****
+make all 
+make: Nothing to be done for 'all'.
+16:22:01 **** Incremental Build of configuration Default for project MandL ****
+make all 
+make: Nothing to be done for 'all'.
+16:23:59 **** Incremental Build of configuration Default for project MandL ****
+make all 
+[1;34mCompiling main.c[0m
+main.c: In function 'main':
+main.c:49:5: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+     int get_selector();
+     ^~~
+main.c:97:24: warning: iteration 7 invokes undefined behavior [-Waggressive-loop-optimizations]
+         prox_values[i] = get_calibrated_prox(i);
+         ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~
+main.c:96:8: note: within this loop
+        for(int i = 0; i<=7; i += 1){
+        ^~~
+main.c:115:26: warning: iteration 7 invokes undefined behavior [-Waggressive-loop-optimizations]
+           prox_values[i] = get_calibrated_prox(i);
+           ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~
+main.c:114:10: note: within this loop
+          for(int i = 0; i<=7; i += 1){
+          ^~~
+main.c:68:27: warning: iteration 7 invokes undefined behavior [-Waggressive-loop-optimizations]
+            prox_values[i] = get_calibrated_prox(i);
+            ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~
+main.c:67:8: note: within this loop
+        for(int i = 0; i<=7; i += 1){
+        ^~~
+[1;34mLinking build/Project_template.elf[0m
+[1;34mCreating build/Project_template.hex[0m
+[1;34mCreating build/Project_template.bin[0m
+[1;34mCreating build/Project_template.dmp[0m
+
+   text	   data	    bss	    dec	    hex	filename
+  69556	   3028	  17532	  90116	  16004	build/Project_template.elf
+[1;34mCreating build/Project_template.list[0m
+
+[1;34mDone[0m
+16:24:48 **** Incremental Build of configuration Default for project MandL ****
+make all 
+make: Nothing to be done for 'all'.
+16:24:53 **** Incremental Build of configuration Default for project MandL ****
+make all 
+make: Nothing to be done for 'all'.
+16:24:58 **** Incremental Build of configuration Default for project MandL ****
+make all 
+make: Nothing to be done for 'all'.
+16:25:16 **** Incremental Build of configuration Default for project MandL ****
+make all 
+make: Nothing to be done for 'all'.
+16:25:35 **** Incremental Build of configuration Default for project MandL ****
+make all 
+make: Nothing to be done for 'all'.
+16:26:33 **** Incremental Build of configuration Default for project MandL ****
+make all 
+make: Nothing to be done for 'all'.
+16:26:58 **** Incremental Build of configuration Default for project MandL ****
+make all 
+make: Nothing to be done for 'all'.
+16:33:03 **** Incremental Build of configuration Default for project MandL ****
+make all 
+[1;34mCompiling main.c[0m
+main.c: In function 'main':
+main.c:49:5: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+     int get_selector();
+     ^~~
+main.c:97:24: warning: iteration 7 invokes undefined behavior [-Waggressive-loop-optimizations]
+         prox_values[i] = get_calibrated_prox(i);
+         ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~
+main.c:96:8: note: within this loop
+        for(int i = 0; i<=7; i += 1){
+        ^~~
+main.c:124:26: warning: iteration 7 invokes undefined behavior [-Waggressive-loop-optimizations]
+           prox_values[i] = get_calibrated_prox(i);
+           ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~
+main.c:123:10: note: within this loop
+          for(int i = 0; i<=7; i += 1){
+          ^~~
+main.c:115:26: warning: iteration 7 invokes undefined behavior [-Waggressive-loop-optimizations]
+           prox_values[i] = get_calibrated_prox(i);
+           ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~
+main.c:114:10: note: within this loop
+          for(int i = 0; i<=7; i += 1){
+          ^~~
+main.c:68:27: warning: iteration 7 invokes undefined behavior [-Waggressive-loop-optimizations]
+            prox_values[i] = get_calibrated_prox(i);
+            ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~
+main.c:67:8: note: within this loop
+        for(int i = 0; i<=7; i += 1){
+        ^~~
+[1;34mLinking build/Project_template.elf[0m
+[1;34mCreating build/Project_template.hex[0m
+[1;34mCreating build/Project_template.bin[0m
+[1;34mCreating build/Project_template.dmp[0m
+
+   text	   data	    bss	    dec	    hex	filename
+  69636	   3028	  17532	  90196	  16054	build/Project_template.elf
+[1;34mCreating build/Project_template.list[0m
+
+[1;34mDone[0m
+16:34:07 **** Incremental Build of configuration Default for project MandL ****
+make all 
+[1;34mCompiling main.c[0m
+main.c: In function 'main':
+main.c:49:5: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+     int get_selector();
+     ^~~
+main.c:97:24: warning: iteration 7 invokes undefined behavior [-Waggressive-loop-optimizations]
+         prox_values[i] = get_calibrated_prox(i);
+         ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~
+main.c:96:8: note: within this loop
+        for(int i = 0; i<=7; i += 1){
+        ^~~
+main.c:124:26: warning: iteration 7 invokes undefined behavior [-Waggressive-loop-optimizations]
+           prox_values[i] = get_calibrated_prox(i);
+           ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~
+main.c:123:10: note: within this loop
+          for(int i = 0; i<=7; i += 1){
+          ^~~
+main.c:115:26: warning: iteration 7 invokes undefined behavior [-Waggressive-loop-optimizations]
+           prox_values[i] = get_calibrated_prox(i);
+           ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~
+main.c:114:10: note: within this loop
+          for(int i = 0; i<=7; i += 1){
+          ^~~
+main.c:68:27: warning: iteration 7 invokes undefined behavior [-Waggressive-loop-optimizations]
+            prox_values[i] = get_calibrated_prox(i);
+            ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~
+main.c:67:8: note: within this loop
+        for(int i = 0; i<=7; i += 1){
+        ^~~
+[1;34mLinking build/Project_template.elf[0m
+[1;34mCreating build/Project_template.hex[0m
+[1;34mCreating build/Project_template.bin[0m
+[1;34mCreating build/Project_template.dmp[0m
+
+   text	   data	    bss	    dec	    hex	filename
+  69636	   3028	  17532	  90196	  16054	build/Project_template.elf
+[1;34mCreating build/Project_template.list[0m
+
+[1;34mDone[0m
+16:35:41 **** Incremental Build of configuration Default for project MandL ****
+make all 
+make: Nothing to be done for 'all'.
+16:35:46 **** Incremental Build of configuration Default for project MandL ****
+make all 
+make: Nothing to be done for 'all'.
+16:36:08 **** Incremental Build of configuration Default for project MandL ****
+make all 
+make: Nothing to be done for 'all'.
+16:37:47 **** Incremental Build of configuration Default for project MandL ****
+make all 
+[1;34mCompiling main.c[0m
+main.c: In function 'main':
+main.c:49:5: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+     int get_selector();
+     ^~~
+main.c:97:24: warning: iteration 7 invokes undefined behavior [-Waggressive-loop-optimizations]
+         prox_values[i] = get_calibrated_prox(i);
+         ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~
+main.c:96:8: note: within this loop
+        for(int i = 0; i<=7; i += 1){
+        ^~~
+main.c:124:26: warning: iteration 7 invokes undefined behavior [-Waggressive-loop-optimizations]
+           prox_values[i] = get_calibrated_prox(i);
+           ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~
+main.c:123:10: note: within this loop
+          for(int i = 0; i<=7; i += 1){
+          ^~~
+main.c:115:26: warning: iteration 7 invokes undefined behavior [-Waggressive-loop-optimizations]
+           prox_values[i] = get_calibrated_prox(i);
+           ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~
+main.c:114:10: note: within this loop
+          for(int i = 0; i<=7; i += 1){
+          ^~~
+main.c:68:27: warning: iteration 7 invokes undefined behavior [-Waggressive-loop-optimizations]
+            prox_values[i] = get_calibrated_prox(i);
+            ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~
+main.c:67:8: note: within this loop
+        for(int i = 0; i<=7; i += 1){
+        ^~~
+[1;34mLinking build/Project_template.elf[0m
+[1;34mCreating build/Project_template.hex[0m
+[1;34mCreating build/Project_template.bin[0m
+[1;34mCreating build/Project_template.dmp[0m
+
+   text	   data	    bss	    dec	    hex	filename
+  69636	   3028	  17532	  90196	  16054	build/Project_template.elf
+[1;34mCreating build/Project_template.list[0m
+
+[1;34mDone[0m
+16:38:22 **** Incremental Build of configuration Default for project MandL ****
+make all 
+make: Nothing to be done for 'all'.
+16:38:35 **** Incremental Build of configuration Default for project MandL ****
+make all 
+make: Nothing to be done for 'all'.
+16:39:55 **** Incremental Build of configuration Default for project MandL ****
+make all 
+[1;34mCompiling main.c[0m
+main.c: In function 'main':
+main.c:49:5: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+     int get_selector();
+     ^~~
+main.c:97:24: warning: iteration 7 invokes undefined behavior [-Waggressive-loop-optimizations]
+         prox_values[i] = get_calibrated_prox(i);
+         ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~
+main.c:96:8: note: within this loop
+        for(int i = 0; i<=7; i += 1){
+        ^~~
+main.c:124:26: warning: iteration 7 invokes undefined behavior [-Waggressive-loop-optimizations]
+           prox_values[i] = get_calibrated_prox(i);
+           ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~
+main.c:123:10: note: within this loop
+          for(int i = 0; i<=7; i += 1){
+          ^~~
+main.c:115:26: warning: iteration 7 invokes undefined behavior [-Waggressive-loop-optimizations]
+           prox_values[i] = get_calibrated_prox(i);
+           ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~
+main.c:114:10: note: within this loop
+          for(int i = 0; i<=7; i += 1){
+          ^~~
+main.c:68:27: warning: iteration 7 invokes undefined behavior [-Waggressive-loop-optimizations]
+            prox_values[i] = get_calibrated_prox(i);
+            ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~
+main.c:67:8: note: within this loop
+        for(int i = 0; i<=7; i += 1){
+        ^~~
+[1;34mLinking build/Project_template.elf[0m
+[1;34mCreating build/Project_template.hex[0m
+[1;34mCreating build/Project_template.bin[0m
+[1;34mCreating build/Project_template.dmp[0m
+
+   text	   data	    bss	    dec	    hex	filename
+  69636	   3028	  17532	  90196	  16054	build/Project_template.elf
+[1;34mCreating build/Project_template.list[0m
+
+[1;34mDone[0m
+16:40:33 **** Incremental Build of configuration Default for project MandL ****
+make all 
+make: Nothing to be done for 'all'.
+16:40:49 **** Incremental Build of configuration Default for project MandL ****
+make all 
+make: Nothing to be done for 'all'.
+16:41:16 **** Incremental Build of configuration Default for project MandL ****
+make all 
+make: Nothing to be done for 'all'.
+16:42:02 **** Incremental Build of configuration Default for project MandL ****
+make all 
+make: Nothing to be done for 'all'.
+16:44:58 **** Incremental Build of configuration Default for project MandL ****
+make all 
+[1;34mCompiling main.c[0m
+main.c: In function 'main':
+main.c:49:5: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+     int get_selector();
+     ^~~
+main.c:97:24: warning: iteration 7 invokes undefined behavior [-Waggressive-loop-optimizations]
+         prox_values[i] = get_calibrated_prox(i);
+         ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~
+main.c:96:8: note: within this loop
+        for(int i = 0; i<=7; i += 1){
+        ^~~
+main.c:68:27: warning: iteration 7 invokes undefined behavior [-Waggressive-loop-optimizations]
+            prox_values[i] = get_calibrated_prox(i);
+            ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~
+main.c:67:8: note: within this loop
+        for(int i = 0; i<=7; i += 1){
+        ^~~
+[1;34mLinking build/Project_template.elf[0m
+[1;34mCreating build/Project_template.hex[0m
+[1;34mCreating build/Project_template.bin[0m
+[1;34mCreating build/Project_template.dmp[0m
+
+   text	   data	    bss	    dec	    hex	filename
+  69524	   3028	  17532	  90084	  15fe4	build/Project_template.elf
+[1;34mCreating build/Project_template.list[0m
+
+[1;34mDone[0m
+16:46:10 **** Incremental Build of configuration Default for project MandL ****
+make all 
+[1;34mCompiling main.c[0m
+main.c: In function 'main':
+main.c:49:5: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+     int get_selector();
+     ^~~
+main.c:97:24: warning: iteration 7 invokes undefined behavior [-Waggressive-loop-optimizations]
+         prox_values[i] = get_calibrated_prox(i);
+         ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~
+main.c:96:8: note: within this loop
+        for(int i = 0; i<=7; i += 1){
+        ^~~
+main.c:68:27: warning: iteration 7 invokes undefined behavior [-Waggressive-loop-optimizations]
+            prox_values[i] = get_calibrated_prox(i);
+            ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~
+main.c:67:8: note: within this loop
+        for(int i = 0; i<=7; i += 1){
+        ^~~
+[1;34mLinking build/Project_template.elf[0m
+[1;34mCreating build/Project_template.hex[0m
+[1;34mCreating build/Project_template.bin[0m
+[1;34mCreating build/Project_template.dmp[0m
+
+   text	   data	    bss	    dec	    hex	filename
+  69556	   3028	  17532	  90116	  16004	build/Project_template.elf
+[1;34mCreating build/Project_template.list[0m
+
+[1;34mDone[0m
+16:48:01 **** Incremental Build of configuration Default for project MandL ****
+make all 
+[1;34mCompiling main.c[0m
+main.c: In function 'main':
+main.c:49:5: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+     int get_selector();
+     ^~~
+main.c:96:24: warning: iteration 7 invokes undefined behavior [-Waggressive-loop-optimizations]
+         prox_values[i] = get_calibrated_prox(i);
+         ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~
+main.c:95:8: note: within this loop
+        for(int i = 0; i<=7; i += 1){
+        ^~~
+main.c:68:27: warning: iteration 7 invokes undefined behavior [-Waggressive-loop-optimizations]
+            prox_values[i] = get_calibrated_prox(i);
+            ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~
+main.c:67:8: note: within this loop
+        for(int i = 0; i<=7; i += 1){
+        ^~~
+[1;34mLinking build/Project_template.elf[0m
+[1;34mCreating build/Project_template.hex[0m
+[1;34mCreating build/Project_template.bin[0m
+[1;34mCreating build/Project_template.dmp[0m
+
+   text	   data	    bss	    dec	    hex	filename
+  69540	   3028	  17532	  90100	  15ff4	build/Project_template.elf
+[1;34mCreating build/Project_template.list[0m
+
+[1;34mDone[0m
+16:50:14 **** Incremental Build of configuration Default for project MandL ****
+make all 
+make: Nothing to be done for 'all'.
+16:50:31 **** Incremental Build of configuration Default for project MandL ****
+make all 
+make: Nothing to be done for 'all'.
+16:50:38 **** Incremental Build of configuration Default for project MandL ****
+make all 
+make: Nothing to be done for 'all'.
+16:50:43 **** Incremental Build of configuration Default for project MandL ****
+make all 
+make: Nothing to be done for 'all'.
+16:53:46 **** Incremental Build of configuration Default for project MandL ****
+make all 
+[1;34mCompiling main.c[0m
+main.c: In function 'main':
+main.c:49:5: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+     int get_selector();
+     ^~~
+main.c:96:24: warning: iteration 7 invokes undefined behavior [-Waggressive-loop-optimizations]
+         prox_values[i] = get_calibrated_prox(i);
+         ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~
+main.c:95:8: note: within this loop
+        for(int i = 0; i<=7; i += 1){
+        ^~~
+main.c:68:27: warning: iteration 7 invokes undefined behavior [-Waggressive-loop-optimizations]
+            prox_values[i] = get_calibrated_prox(i);
+            ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~
+main.c:67:8: note: within this loop
+        for(int i = 0; i<=7; i += 1){
+        ^~~
+main.c:103:48: warning: array subscript is above array bounds [-Warray-bounds]
+        if (prox_values[0] > 2100 || prox_values[7] > 2100) {
+                                     ~~~~~~~~~~~^~~
+[1;34mLinking build/Project_template.elf[0m
+[1;34mCreating build/Project_template.hex[0m
+[1;34mCreating build/Project_template.bin[0m
+[1;34mCreating build/Project_template.dmp[0m
+
+   text	   data	    bss	    dec	    hex	filename
+  69556	   3028	  17532	  90116	  16004	build/Project_template.elf
+[1;34mCreating build/Project_template.list[0m
+
+[1;34mDone[0m
+16:56:26 **** Incremental Build of configuration Default for project MandL ****
+make all 
+make: Nothing to be done for 'all'.
