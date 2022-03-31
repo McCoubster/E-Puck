@@ -29,6 +29,28 @@ messagebus_t bus;
 MUTEX_DECL(bus_lock);
 CONDVAR_DECL(bus_condvar);
 
+void led_control(int led_number){
+	//turn off all LEDs
+	clear_leds();
+	//set required LED
+	if (led_number == 1){
+		set_led(LED1, 1);
+	}else if (led_number == 3){
+		set_led(LED3, 1);
+	}else if (led_number == 5){
+		set_led(LED5, 1);
+	}else if (led_number == 7){
+		set_led(LED7, 1);
+	}else if (led_number == 2){
+		set_rgb_led(LED2, 255,0,0);
+	}else if (led_number == 4){
+		set_rgb_led(LED4, 255,0,0);
+	}else if (led_number == 6){
+		set_rgb_led(LED6, 255,0,0);
+	}else if (led_number == 8){
+		set_rgb_led(LED8, 255,0,0);
+	}
+}
 int main(void)
 {
 
@@ -100,7 +122,7 @@ int main(void)
     				}
     			}
     			chprintf((BaseSequentialStream *)&SDU1, "\n");
-    			if (prox_values[0] > 2100 || prox_values[7] > 2100) {
+    			if (prox_values[0] > 2000 || prox_values[7] > 2000) {
     				right_motor_set_speed(200);
     				left_motor_set_speed(-200);
     				chThdSleepMilliseconds(1750);
@@ -140,6 +162,35 @@ int main(void)
     			}
 
 
+    		}else if (get_selector() == 3){
+    			int loc_largest_value;
+				for(int i = 0; i<=7; i += 1){
+					prox_values[i] = get_calibrated_prox(i);
+					if (i > 0 && prox_values[i]>prox_values[i-1]){
+						loc_largest_value = i;
+					}else if (i==0){
+						loc_largest_value = 0;
+					}
+				}
+				if (loc_largest_value == 0 || loc_largest_value == 7){
+					if (prox_values[0] < 1500 || prox_values[7] < 1500){
+						right_motor_set_speed(200);
+						left_motor_set_speed(200);
+					}else if (prox_values[0] > 2000 || prox_values[7] > 2000){
+						right_motor_set_speed(-200);
+						left_motor_set_speed(-200);
+					}
+					led_control(1);
+				}else if (loc_largest_value == 1 || loc_largest_value == 2 || loc_largest_value == 3){
+					right_motor_set_speed(200);
+					left_motor_set_speed(-200);
+					led_control((loc_largest_value + 1));
+				}else if (loc_largest_value == 4 || loc_largest_value == 5 || loc_largest_value == 6){
+					left_motor_set_speed(200);
+					right_motor_set_speed(-200);
+					led_control((loc_largest_value + 2));
+				}
+				chThdSleepMilliseconds(200);
     		}
 
 
